@@ -1,0 +1,46 @@
+body {
+  background-color: lightgrey;
+}
+#header {
+  font-size: 200%;
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+}
+#para {
+  font-size: 110%;
+  left: 100px;
+  right: 100px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+#myScript {
+font-size: 110%;
+  text-align: center;
+  border-width: thin;
+  padding-top: 1px;
+  border-style: solid;
+  border-width: thin;
+}
+button {
+  font-size: 100%;
+}
+#list {
+  text-align: center;
+  font-size: 110%;
+}
+#galleryHead {
+  text-align: center;
+  font-size: 300%;
+
+}
+#pics {
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+}
+#pics img {
+  width:  250px;
+  height: 250px;
+  border-radius: 5%
+}
