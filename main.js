@@ -4,5 +4,11 @@ function clickyButton() {
 };
 //second button
 function secondButton() {
-  document.getElementById("demo2").innerHTML = "This one changed too."
+  document.getElementById("demo2").innerHTML = "This one changed too.";
 };
+//Jquery test on header container
+$(document).ready(function(){
+  $('div').click(function(){
+    $(this).css('background-color', 'red');
+  });
+});
